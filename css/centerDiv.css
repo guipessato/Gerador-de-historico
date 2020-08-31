@@ -12,4 +12,14 @@ body {
   max-width: auto;
   margin: auto;
   border: 5px;
+  background-color:#343a40;
+}
+
+textarea {
+  max-height: 80px;
+  min-height: 80px;
+}
+
+.limpar{
+  background-color: #EF7917;
 }
