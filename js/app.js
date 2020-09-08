@@ -22,6 +22,7 @@ function gerarHistorico() {
 	} else if (document.getElementById("trocaONU").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato informando a troca da ONU. ONU autorizada conforme solicitado.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -34,9 +35,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("liberarMAC").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato solicitando a liberação do MAC.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -49,9 +52,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("loginSenhaMonitoramento").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato pois deseja o login e senha do monitoramento do assinante.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -64,9 +69,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("loginSenha").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato para verificar o nome de usuario e senha do PPPoE.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -79,9 +86,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("ipTelefonia").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato pois deseja um IP de telefonia.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -94,9 +103,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("verifSenhaWifi").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato para verificar a senha do wifi. Informado e agradeceu";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -109,9 +120,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("ativarWifi").checked == true) {
 		textoHistorico = setor + " " + " entrou em contato para ativar o wifi. Ativado.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -124,9 +137,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("alterarSenhaWifi").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato para alterar a senha do wifi. Alterado.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -139,9 +154,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("alterarSSIDWifi").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato para alterar o SSID da rede Wifi. Alterado.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -154,9 +171,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("alterarSSIDSenhaWifi").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato para alterar o nome e senha da rede Wifi. Alterado.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -169,9 +188,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("AlterarFrequenciaWifi").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato para alterar a frequencia/canal do wifi. Alterado.";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -184,9 +205,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("telefoneSIP").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato solicitando a senha SIP e TN do contrato do assinante";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -199,9 +222,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("portasONU").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato solicitando informações sobre as portas habilitadas na ONU";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -214,9 +239,11 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("liberacaoPortaInternet").checked == true) {
 		textoHistorico = setor + " " + nome + " entrou em contato solicitando a liberação das portas na ONU";
 		//Adiciona texto do procedimento
+		/*
 		var scriptProcedimento = document.querySelector(".textoScript"),
 			// Pega a string do conteúdo atual
 			textoTemporario = scriptProcedimento.innerHTML,
@@ -229,6 +256,7 @@ function gerarHistorico() {
 		textoTemporario = textoNovo;
 		// Coloca a nova textoNovo no DOM
 		scriptProcedimento.innerHTML = textoTemporario;
+		*/
 	} else if (document.getElementById("redirecionamentoPorta").checked == true) {
 		//solicitando porta e ip
 		// var ip = prompt("Informe o IP:");
