@@ -13,14 +13,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema<br>" +
-			"2º Identificar numero de contato<br>" +
-			"3º Acessar I-NS<br>" +
-			"4º Solicite a MAC do equipamento<br>" +
-			"5º Acesse a plataforma UNM2000<br>" +
-			"6º Para autorizar a ONU vá a Resource -> Unautorized ONU List -> Selecione a OLT da cidade correspondete ao contrato e clique em OK -> encontre a ONU com o MAC informado -> selecione a ONU e clique com o botão direito do mouse e escolha a opção ONU Authetication -> clique na opção Issued to the ONU psysical logo white list.<br>" +
-			"7º Apos este procedimento, ONU estará autorizada.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -35,14 +28,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a).<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Solicite a MAC do novo equipamento e questione o motivo da troca.<br>" +
-			"5º Acesse a plataforma UNM2000.<br>" +
-			"6º Para autorizar a ONU vá a Resource -> Unautorized ONU List -> Selecione a OLT da cidade correspondete ao contrato e clique em OK -> encontre a ONU com o MAC informado -> selecione a ONU e clique com o botão direito do mouse e escolha a opção ONU Authetication -> clique na opção Issued to the ONU.psysical logo white list.<br>" +
-			"7º Apos este procedimento, ONU estará autorizada.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -57,13 +43,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a).<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Clicar com o botão direito no PPPoE.<br>" +
-			"5º Clicar em 'Liberar MAC'.<br>" +
-			"6º Informe ao técnico/instalador/assinante que o MAC foi libera.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -78,17 +58,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema<br>" +
-			"2º Identificar numero de contato<br>" +
-			"3º Acessar I-NS<br>" +
-			"4º Clicar com o botão direito em CPE RADIUS <br>" +
-			"5º Clicar em 'Incluir CPE RADIUS'<br>" +
-			"6º Criar PPPoE de monitoramento seguindo os padrões:<br>" +
-			"Usuario: monitoramento.NUMERO DO CONTRATO@life.com.br // Senha: NUMERO DO CONTRATO<br>" +
-			"7º Informar PPPoE para técnico/instalador<br>" +
-			"8º Verificar se PPPoE autenticou<br>" +
-			"9º Verificar acesso remoto ao equipamento autenticado com o PPPoE de monitoramento<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -103,15 +73,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia / boa tarde / boa noite, meu nome é Charlis em que posso ajuda - lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema<br>" +
-			"2º Identificar numero de contato<br>" +
-			"3º Acessar I-NS<br>" +
-			"4º Clicar com o botão direito no PPPoE<br>" +
-			"5º Clicar em 'Desabilitar'<br>" +
-			"6º Criar em 'Alterar CPE RADIUS'<br>" +
-			"7º Informar PPPoE para técnico / instalador<br>" +
-			"8º Verificar se PPPoE autenticou" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -126,18 +88,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia / boa tarde / boa noite, meu nome é Charlis em que posso ajuda - lo(a)<br>" +
-			"1º Solicitar codigo e contrato para abrir no sistema<br>" +
-			"2º Solicite a cidade do assinante.<br>" +
-			"3º Verifique a tecnologia do assinante(GEPON / GPON ou Conversor de midia).<br>" +
-			"4º Acesse o WINBOX.<br>" +
-			"5º Acesse o AUTH - DHCP da cidade do assinante.<br>" +
-			"6º Localize um IP disponivel compativel com a tecnologia instalada.<br>" +
-			"7º Verifique se o IP não esta pingando.<br>" +
-			"8º Informe IP para técnico / instalador realizar as configurações no local.<br>" +
-			"9º Apos técnico / instalador realizar configurações no equipamento, verifique se IP informado começou a responder ao ping.<br>" +
-			"10º Solicite que técnico / instalador teste a linha telefonica.<br><br>" +
-			"OBS: Em caso de LIGLIFE portado na data da instalação, informar o técnico/instalador que linha telefonica tem o prazo de 24h uteis para entrar em funcionamento" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -152,14 +103,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Indentificar IP de autenticação.<br>" +
-			"5º Acessar equipamento pelo IP de autenticação via navegador ou aplicação compativel.<br>" +
-			"6º Encontrar opção relacionada a segurança da WLAN/WIFI.<br>" +
-			"7º Verificar senha e informa-la para assinante/técnico/instalador/N1.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -174,15 +118,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a).<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Indentificar IP de autenticação.<br>" +
-			"5º Acessar equipamento pelo IP de autenticação via navegador ou aplicação compativel.<br>" +
-			"6º Encontrar opção relacionada a configurações da WLAN/WIFI.<br>" +
-			"7º Verificar se WLAN/WIFI, caso esteja desativado, ativar.<br>" +
-			"8º Informar que WLAN/WIFI foi ativo para assinante/técnico/instalador/N1 conforme solicitado<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -197,15 +133,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Indentificar IP de autenticação.<br>" +
-			"5º Acessar equipamento pelo IP de autenticação via navegador ou aplicação compativel.<br>" +
-			"6º Encontrar opção relacionada a segurança da WLAN/WIFI.<br>" +
-			"7º Solicitar a senha que assinante/técnico/instalador/N1 gostaria e altera-la.<br>" +
-			"8º Informar que senha do WLAN/WIFI foi alterada para assinante/técnico/instalador/N1 conforme solicitado.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -220,15 +148,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Indentificar IP de autenticação.<br>" +
-			"5º Acessar equipamento pelo IP de autenticação via navegador ou aplicação compativel.<br>" +
-			"6º Encontrar opção relacionada a configurações da WLAN/WIFI.<br>" +
-			"7º Solicitar o SSID(nome) que assinante/técnico/instalador/N1 gostaria e altera-la.<br>" +
-			"8º Informar que SSID(nome) do WLAN/WIFI foi alterada para assinante/técnico/instalador/N1 conforme solicitado.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -243,15 +163,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a).<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Indentificar IP de autenticação.<br>" +
-			"5º Acessar equipamento pelo IP de autenticação via navegador ou aplicação compativel.<br>" +
-			"6º Encontrar opção relacionada a configurações da WLAN/WIFI.<br>" +
-			"7º Solicitar a senha e SSID(nome) que assinante/técnico/instalador/N1 gostaria e altera-la.<br>" +
-			"8º Informar que senha e SSID(nome) do WLAN/WIFI foi alterada para assinante/técnico/instalador/N1 conforme solicitado.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -266,16 +178,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Indentificar IP de autenticação.<br>" +
-			"5º Acessar equipamento pelo IP de autenticação via navegador ou aplicação compativel.<br>" +
-			"6º Encontrar opção relacionada a configurações da WLAN/WIFI.<br>" +
-			"7º Encontrar opção relacionada a frenquecia de transmissão e canal de transmissão.<br>" +
-			"8ºAlterar frenquecia de transmissão e canal de transmissão ou deixar nas opções automaticas.<br>" +
-			"9º Informar para assinante/técnico/instalador/N1 que frenquecia de transmissão e canal de transmissão alterados conforme solicitado.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -290,15 +193,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema<br>" +
-			"2º Abrir contrato correspondente<br>" +
-			"3º Localizar telefone<br>" +
-			"4º Clicar com botão direito do mouse no telefone<br>" +
-			"5º Clicar em 'Desabilitar ATA'<br>" +
-			"6º Clicar em 'Alterar ATA'<br>" +
-			"7º Selecionar telefone e clicar com o botão direito do mouse em 'Alterar senha SIP'<br>" +
-			"8º Informar TN e SIP para técnico/instalador<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -313,15 +208,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Indentificar IP de autenticação.<br>" +
-			"5º Acessar equipamento pelo IP de autenticação via navegador ou aplicação compativel.<br>" +
-			"6º Encontrar opção relacionada a WAN.<br>" +
-			"7º Acessar VLAN qual deseja verificar portas(VLAN 151 INTERNET / VLAN 900 TV).<br>" +
-			"8º Verificar as postas liberadas para dados e informar assinante/técnico/instalador/N1.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -336,17 +223,7 @@ function gerarHistorico() {
 			// Novo HTML que será inserido
 			textoNovo =
 			"<div id=textoProc class='mx-3 my-2 text-justify'>" +
-			"Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
-			"1º Solicitar codigo, contrato e cidade para abrir no sistema.<br>" +
-			"2º Identificar numero de contato.<br>" +
-			"3º Acessar I-NS.<br>" +
-			"4º Indentificar IP de autenticação.<br>" +
-			"5º Acessar equipamento pelo IP de autenticação via navegador ou aplicação compativel.<br>" +
-			"6º Encontrar opção relacionada a WAN.<br>" +
-			"7º Acessar VLAN do serviço que deseja alterar/liberar a(s) porta(s).<br>" +
-			"8º Solicitar porta(s) que deseja que seja(m) liberada(s)<br>" +
-			"9º Realizar alteração.<br>" +
-			"9º Informar assinante/técnico/instalador/N1 que portas foram liberadas conforme solicitado.<br>" +
+			 "Texto" +
 			"</div>";
 		// Concatena as strings colocando o textoNovo antes do textoTemporario
 		textoTemporario = textoNovo;
@@ -406,7 +283,7 @@ function copiarTexto() {
 
 
 //EXEMPLO TEXTO PROCEDIMENTO
-// "Saudações: Life, bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
+// "Saudações: bom dia/boa tarde/boa noite, meu nome é Charlis em que posso ajuda-lo(a)<br>" +
 // "1º Solicitar codigo e contrato para abrir no sistema<br>" +
 // "2º Solicitar o MAC ADDRESS do equipamento<br>" +
 // "3º Identificar o FTTH do cliente <br>" +
